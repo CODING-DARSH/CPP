@@ -10,7 +10,7 @@ class Govt{
 class state:public Govt{
     public:
     void paytax(){
-        cout<<"State paytax is accessed";git remote add origin 
+        cout<<"State paytax is accessed";
         Govt::paytax();
     }
 };
