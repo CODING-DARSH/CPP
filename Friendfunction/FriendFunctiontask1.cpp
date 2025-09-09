@@ -7,8 +7,7 @@ class Car;
 class driver{
     int charges;
     public:
-    driver(string d_name,int charges){
-        this->name=d_name;
+    driver(int charges){
         this->charges=charges;
     }
 
@@ -21,8 +20,7 @@ class Car{
     string CarType;
     int km;
     public:
-    Car(string CarType,int km){
-        this->CarType=CarType;
+    Car(int km){
         this->km=km;
     }
     friend int calculateWages(Car,driver);
