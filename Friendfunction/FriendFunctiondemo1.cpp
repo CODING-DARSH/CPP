@@ -2,11 +2,9 @@
 #include<iostream>
 using namespace std;
 
-class Box{
-
-     
+class Box{  
+    private:
     int length;
-
     public:
     Box(int l){
         this->length = l;
@@ -29,3 +27,4 @@ int main(){
     //b1.printBox(b1)
     printBox(b1);
 }
+//by default if we write anything outside the block it is in private 

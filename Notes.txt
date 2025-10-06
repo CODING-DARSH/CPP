@@ -1,0 +1,22 @@
+Friend function
+---------------------------------------------------------------
+Friend function is basically used for accessing elements of private and protected elements or data
+it is declared inside class and then we write function outside class
+
+virtual function
+---------------------------------------------------------------
+virtual function is basically a type of function which is created in parent class and is created with virtual name in  in parent class and then in child classes that function is created again without virtual keyword virtual means basicallyit tells that this function can be over write and also only access that particular function which is called
+Person *p;  -->parent
+studnet s;  -->child
+p=&s;   -->here addrees of s is given to p 
+p->showRole();  and as we now hve addrees of s when we call with -> we will hve studnet function called
+
+pure virtual function
+---------------------------------------------------------------
+it is basically part of abstraction and is declared inside parent class without anu details
+Declared with = 0 at the end.
+inside child class we will write function without virtual word 
+And we cannot create object of this class in main we will directly create object of child class and wwe will call that function
+virtual void showRole() = 0;
+void showRole()
+---------------------------------------------------------------

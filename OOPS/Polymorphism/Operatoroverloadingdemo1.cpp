@@ -12,12 +12,13 @@ class Counter{
     //prefix means ++a
     void operator ++(){
         cout<<"Prefix Operator overloading function is called ";
-        this->value++;
+        this->value=++value;
     }
     //this is postfix operator in this int parameter should be passed compulsary 
     //a++
     void operator ++(int){
         cout<<"\n Postfix operator overloading  is called";
+        this->value=value++;
     }
 
     void operator --(){
@@ -33,4 +34,5 @@ int main(){
     ++c1;   //prefix overloading operator is called
     c1++;   //suffix overloading operator is called
     --c1;
+    c1.display();
 }
