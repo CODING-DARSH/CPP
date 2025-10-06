@@ -14,7 +14,7 @@ class Balance{
 };
 int main(){
     Balance b1(1000);
-    Balance b2(1000);
+    Balance b2(2000);
     if (b1==b2){    //b1==b2 is used for calling fucntion
         cout<<"\nBoth have same balance";
     }
