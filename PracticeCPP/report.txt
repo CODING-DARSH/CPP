@@ -1,0 +1,21 @@
+Report generated at: 2025-10-31 12:38:13
+
+=== Students ===
+ID: 1, Name: Darsh
+Courses: AIML 
+Grades:
+  AIML : A
+Last login: 2025-10-31 12:35:46
+--------------------------
+ID: 2, Name: Harsh
+Courses: None
+Grades:
+  None
+Last login: 
+--------------------------
+
+=== Teachers ===
+ID: 1, Name: Rekha
+Subjects: AIML 
+Last login: 2025-10-31 12:36:35
+--------------------------

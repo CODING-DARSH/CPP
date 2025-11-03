@@ -8,7 +8,7 @@ int main() {
     vector<string> modifiednames;
     string choice;
     while (true) {
-        cout << "Enter 'exit' if you don't want to enter name else enter name: ";
+        cout << "Enter exit if you dont want to enter name else enter name: ";
         cin >> choice;
         if (choice == "exit") {
             break;
