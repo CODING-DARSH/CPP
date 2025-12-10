@@ -1,6 +1,6 @@
 // 2. Game Player Turn System (Round-Based)
-// 🧠 Players take turns in order. After a turn, they go to the back again.
-// ✅ Features
+//  Players take turns in order. After a turn, they go to the back again.
+//  Features
 // Circular queue behavior
 // Turns keep rotating
 // Simulates a multiplayer game
